@@ -1,0 +1,23 @@
+.thumbnail1{
+  width : 600px;
+  margin-bottom: 100px;
+  height : 500px;
+  display: block;
+  object-fit: cover; /*cover/contain*/
+  object-position: left; /*left/right/center/top/bottom*/
+}
+.thumbnail2{
+  width : 600px;
+  height: 500px;
+  display: block;
+  margin-bottom :80px;
+  object-fit: contain;
+  object-position: center;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 0, 0);
+}
+.searchbox{
+  font-size: 40px;
+  padding: 9px;
+}

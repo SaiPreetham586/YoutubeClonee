@@ -1,0 +1,39 @@
+.side-bar{
+   background-color: rgb(255, 255, 255);
+   left : 3px;
+   top : 55px;
+   margin-top: 5px;
+   bottom : 0px;
+   width : 65px;
+   position: fixed;
+   z-index : 200;
+}
+.side-bar-link,.side-bar-link2{
+  height : 74px;
+  display: flex;
+  flex-direction : column;
+  justify-items: center;
+  align-items: center;
+  cursor : pointer;
+  border-radius: 10px;
+}
+.side-bar-link:hover,.side-bar-link2:hover{
+  background-color : rgb(244, 244, 244);
+}
+.side-bar-link img{
+  padding-top: 15px;
+  height : 25px;
+  padding-bottom : 6px;
+}
+.side-bar-link div,.side-bar-link2 div{
+  font-size : 10px;
+  white-space : wrap;
+}
+.side-bar-link2 img{
+  padding-top: 15px;
+  height : 28px;
+  padding-bottom : 4px;
+}
+
+
+
